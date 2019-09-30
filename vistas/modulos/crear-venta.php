@@ -4,7 +4,7 @@
            
     </div>
     <div class="col-lg-8">
-         <div class="ibox ">    
+         <div class="ibox ">     
                 <div class="ibox-title">   
                     <h5>Agregar Venta</h5>      
                 </div>
@@ -294,10 +294,40 @@
                  <div class="form-group" id="campo_otro7" style="display: none">
                         <label class="col-sm-3 control-label">Tipo de plan</label>
                         <div class="col-sm-9">
-                        <select  name="nuevoplan4"  class="form-control m-b MostrarPrecios">
+                        <select  name="nuevoplan4" class="form-control m-b MostrarPrecios">
                              <option value="">Seleccione el plan</option>
-                            <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
-                            <option value="Plan $40USD - 1GB - 30 Dias">Plan $40USD - 1GB - 30 D&iacuteas</option>
+                            <!-- <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
+                            <option value="Plan $40USD - 1GB - 30 Dias">Plan $40USD - 1GB - 30 D&iacuteas</option> -->
+                            <option value="1 Dia">1 Dia</option>
+                            <option value="2 Dias">2 Dias</option>
+                            <option value="3 Dias">3 Dias</option>
+                            <option value="4 Dias">4 Dias</option>
+                            <option value="5 Dias">5 Dias</option>
+                            <option value="6 Dias">6 Dias</option>
+                            <option value="7 Dias">7 Dias</option>
+                            <option value="8 Dias">8 Dias</option>
+                            <option value="9 Dias">9 Dias</option>
+                            <option value="10 Dias">10 Dias</option>
+                            <option value="11 Dias">11 Dias</option>
+                            <option value="12 Dias">12 Dias</option>
+                            <option value="13 Dias">13 Dias</option>
+                            <option value="14 Dias">14 Dias</option>
+                            <option value="15 Dias">15 Dias</option>
+                            <option value="16 Dias">16 Dias</option>
+                            <option value="17 Dias">17 Dias</option>
+                            <option value="18 Dias">18 Dias</option>
+                            <option value="19 Dias">19 Dias</option>
+                            <option value="20 Dias">20 Dias</option>
+                            <option value="21 Dias">21 Dias</option>
+                            <option value="22 Dias">22 Dias</option>
+                            <option value="23 Dias">23 Dias</option>
+                            <option value="24 Dias">24 Dias</option>
+                            <option value="25 Dias">25 Dias</option>
+                            <option value="26 Dias">26 Dias</option>
+                            <option value="27 Dias">27 Dias</option>
+                            <option value="28 Dias">28 Dias</option>
+                            <option value="29 Dias">29 Dias</option>
+                            <option value="30 Dias">30 Dias</option>
                         </select>
                     </div> 
 
@@ -308,8 +338,38 @@
                         <div class="col-sm-9">
                         <select  name="nuevoplan5"  class="form-control m-b MostrarPrecios">
                              <option value="">Seleccione el plan</option>
-                            <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
-                            <option value="Plan $40USD - 1GB - 30 Dias">Plan $40USD - 1GB - 30 D&iacuteas</option>
+                            <!-- <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
+                            <option value="Plan $40USD - 1GB - 30 Dias">Plan $40USD - 1GB - 30 D&iacuteas</option> -->
+                            <option value="1 Dia">1 Dia</option>
+                            <option value="2 Dias">2 Dias</option>
+                            <option value="3 Dias">3 Dias</option>
+                            <option value="4 Dias">4 Dias</option>
+                            <option value="5 Dias">5 Dias</option>
+                            <option value="6 Dias">6 Dias</option>
+                            <option value="7 Dias">7 Dias</option>
+                            <option value="8 Dias">8 Dias</option>
+                            <option value="9 Dias">9 Dias</option>
+                            <option value="10 Dias">10 Dias</option>
+                            <option value="11 Dias">11 Dias</option>
+                            <option value="12 Dias">12 Dias</option>
+                            <option value="13 Dias">13 Dias</option>
+                            <option value="14 Dias">14 Dias</option>
+                            <option value="15 Dias">15 Dias</option>
+                            <option value="16 Dias">16 Dias</option>
+                            <option value="17 Dias">17 Dias</option>
+                            <option value="18 Dias">18 Dias</option>
+                            <option value="19 Dias">19 Dias</option>
+                            <option value="20 Dias">20 Dias</option>
+                            <option value="21 Dias">21 Dias</option>
+                            <option value="22 Dias">22 Dias</option>
+                            <option value="23 Dias">23 Dias</option>
+                            <option value="24 Dias">24 Dias</option>
+                            <option value="25 Dias">25 Dias</option>
+                            <option value="26 Dias">26 Dias</option>
+                            <option value="27 Dias">27 Dias</option>
+                            <option value="28 Dias">28 Dias</option>
+                            <option value="29 Dias">29 Dias</option>
+                            <option value="30 Dias">30 Dias</option>
                         </select>
                     </div> 
 
@@ -348,8 +408,38 @@
                         <div class="col-sm-9">
                         <select  name="nuevoplan8"  class="form-control m-b MostrarPrecios">
                              <option value="">Seleccione el plan</option>
-                            <option value="Plan $60USD - 9GB - 30 Dias">Plan $60USD - 9GB - 30 D&iacuteas</option>
-                            <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
+                            <!-- <option value="Plan $60USD - 9GB - 30 Dias">Plan $60USD - 9GB - 30 D&iacuteas</option>
+                            <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option> -->
+                            <option value="1 Dia">1 Dia</option>
+                            <option value="2 Dias">2 Dias</option>
+                            <option value="3 Dias">3 Dias</option>
+                            <option value="4 Dias">4 Dias</option>
+                            <option value="5 Dias">5 Dias</option>
+                            <option value="6 Dias">6 Dias</option>
+                            <option value="7 Dias">7 Dias</option>
+                            <option value="8 Dias">8 Dias</option>
+                            <option value="9 Dias">9 Dias</option>
+                            <option value="10 Dias">10 Dias</option>
+                            <option value="11 Dias">11 Dias</option>
+                            <option value="12 Dias">12 Dias</option>
+                            <option value="13 Dias">13 Dias</option>
+                            <option value="14 Dias">14 Dias</option>
+                            <option value="15 Dias">15 Dias</option>
+                            <option value="16 Dias">16 Dias</option>
+                            <option value="17 Dias">17 Dias</option>
+                            <option value="18 Dias">18 Dias</option>
+                            <option value="19 Dias">19 Dias</option>
+                            <option value="20 Dias">20 Dias</option>
+                            <option value="21 Dias">21 Dias</option>
+                            <option value="22 Dias">22 Dias</option>
+                            <option value="23 Dias">23 Dias</option>
+                            <option value="24 Dias">24 Dias</option>
+                            <option value="25 Dias">25 Dias</option>
+                            <option value="26 Dias">26 Dias</option>
+                            <option value="27 Dias">27 Dias</option>
+                            <option value="28 Dias">28 Dias</option>
+                            <option value="29 Dias">29 Dias</option>
+                            <option value="30 Dias">30 Dias</option>
                         </select>
                     </div> 
 
@@ -533,8 +623,38 @@
                         <div class="col-sm-9">
                         <select  name="nuevoplan4"  class="form-control m-b MostrarPrecios">
                              <option value="">Seleccione el plan</option>
-                            <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
-                            <option value="Plan $40USD - 1GB - 30 Dias">Plan $40USD - 1GB - 30 D&iacuteas</option>
+                            <!-- <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
+                            <option value="Plan $40USD - 1GB - 30 Dias">Plan $40USD - 1GB - 30 D&iacuteas</option> -->
+                            <option value="1 Dia">1 Dia</option>
+                            <option value="2 Dias">2 Dias</option>
+                            <option value="3 Dias">3 Dias</option>
+                            <option value="4 Dias">4 Dias</option>
+                            <option value="5 Dias">5 Dias</option>
+                            <option value="6 Dias">6 Dias</option>
+                            <option value="7 Dias">7 Dias</option>
+                            <option value="8 Dias">8 Dias</option>
+                            <option value="9 Dias">9 Dias</option>
+                            <option value="10 Dias">10 Dias</option>
+                            <option value="11 Dias">11 Dias</option>
+                            <option value="12 Dias">12 Dias</option>
+                            <option value="13 Dias">13 Dias</option>
+                            <option value="14 Dias">14 Dias</option>
+                            <option value="15 Dias">15 Dias</option>
+                            <option value="16 Dias">16 Dias</option>
+                            <option value="17 Dias">17 Dias</option>
+                            <option value="18 Dias">18 Dias</option>
+                            <option value="19 Dias">19 Dias</option>
+                            <option value="20 Dias">20 Dias</option>
+                            <option value="21 Dias">21 Dias</option>
+                            <option value="22 Dias">22 Dias</option>
+                            <option value="23 Dias">23 Dias</option>
+                            <option value="24 Dias">24 Dias</option>
+                            <option value="25 Dias">25 Dias</option>
+                            <option value="26 Dias">26 Dias</option>
+                            <option value="27 Dias">27 Dias</option>
+                            <option value="28 Dias">28 Dias</option>
+                            <option value="29 Dias">29 Dias</option>
+                            <option value="30 Dias">30 Dias</option>
                         </select>
                     </div> 
 
@@ -545,8 +665,38 @@
                         <div class="col-sm-9">
                         <select  name="nuevoplan5"  class="form-control m-b MostrarPrecios">
                              <option value="">Seleccione el plan</option>
-                            <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
-                            <option value="Plan $40USD - 1GB - 30 Dias">Plan $40USD - 1GB - 30 D&iacuteas</option>
+                            <!-- <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
+                            <option value="Plan $40USD - 1GB - 30 Dias">Plan $40USD - 1GB - 30 D&iacuteas</option> -->
+                            <option value="1 Dia">1 Dia</option>
+                            <option value="2 Dias">2 Dias</option>
+                            <option value="3 Dias">3 Dias</option>
+                            <option value="4 Dias">4 Dias</option>
+                            <option value="5 Dias">5 Dias</option>
+                            <option value="6 Dias">6 Dias</option>
+                            <option value="7 Dias">7 Dias</option>
+                            <option value="8 Dias">8 Dias</option>
+                            <option value="9 Dias">9 Dias</option>
+                            <option value="10 Dias">10 Dias</option>
+                            <option value="11 Dias">11 Dias</option>
+                            <option value="12 Dias">12 Dias</option>
+                            <option value="13 Dias">13 Dias</option>
+                            <option value="14 Dias">14 Dias</option>
+                            <option value="15 Dias">15 Dias</option>
+                            <option value="16 Dias">16 Dias</option>
+                            <option value="17 Dias">17 Dias</option>
+                            <option value="18 Dias">18 Dias</option>
+                            <option value="19 Dias">19 Dias</option>
+                            <option value="20 Dias">20 Dias</option>
+                            <option value="21 Dias">21 Dias</option>
+                            <option value="22 Dias">22 Dias</option>
+                            <option value="23 Dias">23 Dias</option>
+                            <option value="24 Dias">24 Dias</option>
+                            <option value="25 Dias">25 Dias</option>
+                            <option value="26 Dias">26 Dias</option>
+                            <option value="27 Dias">27 Dias</option>
+                            <option value="28 Dias">28 Dias</option>
+                            <option value="29 Dias">29 Dias</option>
+                            <option value="30 Dias">30 Dias</option>
                         </select>
                     </div> 
 
@@ -585,8 +735,38 @@
                         <div class="col-sm-9">
                         <select  name="nuevoplan8"  class="form-control m-b MostrarPrecios">
                              <option value="">Seleccione el plan</option>
-                            <option value="Plan $60USD - 9GB - 30 Dias">Plan $60USD - 9GB - 30 D&iacuteas</option>
-                            <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
+                            <!-- <option value="Plan $60USD - 9GB - 30 Dias">Plan $60USD - 9GB - 30 D&iacuteas</option>
+                            <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option> -->
+                            <option value="1 Dia">1 Dia</option>
+                            <option value="2 Dias">2 Dias</option>
+                            <option value="3 Dias">3 Dias</option>
+                            <option value="4 Dias">4 Dias</option>
+                            <option value="5 Dias">5 Dias</option>
+                            <option value="6 Dias">6 Dias</option>
+                            <option value="7 Dias">7 Dias</option>
+                            <option value="8 Dias">8 Dias</option>
+                            <option value="9 Dias">9 Dias</option>
+                            <option value="10 Dias">10 Dias</option>
+                            <option value="11 Dias">11 Dias</option>
+                            <option value="12 Dias">12 Dias</option>
+                            <option value="13 Dias">13 Dias</option>
+                            <option value="14 Dias">14 Dias</option>
+                            <option value="15 Dias">15 Dias</option>
+                            <option value="16 Dias">16 Dias</option>
+                            <option value="17 Dias">17 Dias</option>
+                            <option value="18 Dias">18 Dias</option>
+                            <option value="19 Dias">19 Dias</option>
+                            <option value="20 Dias">20 Dias</option>
+                            <option value="21 Dias">21 Dias</option>
+                            <option value="22 Dias">22 Dias</option>
+                            <option value="23 Dias">23 Dias</option>
+                            <option value="24 Dias">24 Dias</option>
+                            <option value="25 Dias">25 Dias</option>
+                            <option value="26 Dias">26 Dias</option>
+                            <option value="27 Dias">27 Dias</option>
+                            <option value="28 Dias">28 Dias</option>
+                            <option value="29 Dias">29 Dias</option>
+                            <option value="30 Dias">30 Dias</option>
                         </select>
                     </div> 
 
@@ -761,8 +941,38 @@
                         <div class="col-sm-9">
                         <select  name="nuevoplan4"  class="form-control m-b MostrarPrecios">
                              <option value="">Seleccione el plan</option>
-                            <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
-                            <option value="Plan $40USD - 1GB - 30 Dias">Plan $40USD - 1GB - 30 D&iacuteas</option>
+                            <!-- <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
+                            <option value="Plan $40USD - 1GB - 30 Dias">Plan $40USD - 1GB - 30 D&iacuteas</option> -->
+                            <option value="1 Dia">1 Dia</option>
+                            <option value="2 Dias">2 Dias</option>
+                            <option value="3 Dias">3 Dias</option>
+                            <option value="4 Dias">4 Dias</option>
+                            <option value="5 Dias">5 Dias</option>
+                            <option value="6 Dias">6 Dias</option>
+                            <option value="7 Dias">7 Dias</option>
+                            <option value="8 Dias">8 Dias</option>
+                            <option value="9 Dias">9 Dias</option>
+                            <option value="10 Dias">10 Dias</option>
+                            <option value="11 Dias">11 Dias</option>
+                            <option value="12 Dias">12 Dias</option>
+                            <option value="13 Dias">13 Dias</option>
+                            <option value="14 Dias">14 Dias</option>
+                            <option value="15 Dias">15 Dias</option>
+                            <option value="16 Dias">16 Dias</option>
+                            <option value="17 Dias">17 Dias</option>
+                            <option value="18 Dias">18 Dias</option>
+                            <option value="19 Dias">19 Dias</option>
+                            <option value="20 Dias">20 Dias</option>
+                            <option value="21 Dias">21 Dias</option>
+                            <option value="22 Dias">22 Dias</option>
+                            <option value="23 Dias">23 Dias</option>
+                            <option value="24 Dias">24 Dias</option>
+                            <option value="25 Dias">25 Dias</option>
+                            <option value="26 Dias">26 Dias</option>
+                            <option value="27 Dias">27 Dias</option>
+                            <option value="28 Dias">28 Dias</option>
+                            <option value="29 Dias">29 Dias</option>
+                            <option value="30 Dias">30 Dias</option>
                         </select>
                     </div> 
 
@@ -773,8 +983,38 @@
                         <div class="col-sm-9">
                         <select  name="nuevoplan5"  class="form-control m-b MostrarPrecios">
                              <option value="">Seleccione el plan</option>
-                            <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
-                            <option value="Plan $40USD - 1GB - 30 Dias">Plan $40USD - 1GB - 30 D&iacuteas</option>
+                            <!-- <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
+                            <option value="Plan $40USD - 1GB - 30 Dias">Plan $40USD - 1GB - 30 D&iacuteas</option> -->
+                            <option value="1 Dia">1 Dia</option>
+                            <option value="2 Dias">2 Dias</option>
+                            <option value="3 Dias">3 Dias</option>
+                            <option value="4 Dias">4 Dias</option>
+                            <option value="5 Dias">5 Dias</option>
+                            <option value="6 Dias">6 Dias</option>
+                            <option value="7 Dias">7 Dias</option>
+                            <option value="8 Dias">8 Dias</option>
+                            <option value="9 Dias">9 Dias</option>
+                            <option value="10 Dias">10 Dias</option>
+                            <option value="11 Dias">11 Dias</option>
+                            <option value="12 Dias">12 Dias</option>
+                            <option value="13 Dias">13 Dias</option>
+                            <option value="14 Dias">14 Dias</option>
+                            <option value="15 Dias">15 Dias</option>
+                            <option value="16 Dias">16 Dias</option>
+                            <option value="17 Dias">17 Dias</option>
+                            <option value="18 Dias">18 Dias</option>
+                            <option value="19 Dias">19 Dias</option>
+                            <option value="20 Dias">20 Dias</option>
+                            <option value="21 Dias">21 Dias</option>
+                            <option value="22 Dias">22 Dias</option>
+                            <option value="23 Dias">23 Dias</option>
+                            <option value="24 Dias">24 Dias</option>
+                            <option value="25 Dias">25 Dias</option>
+                            <option value="26 Dias">26 Dias</option>
+                            <option value="27 Dias">27 Dias</option>
+                            <option value="28 Dias">28 Dias</option>
+                            <option value="29 Dias">29 Dias</option>
+                            <option value="30 Dias">30 Dias</option>
                         </select>
                     </div> 
 
@@ -813,8 +1053,38 @@
                         <div class="col-sm-9">
                         <select  name="nuevoplan8"  class="form-control m-b MostrarPrecios">
                              <option value="">Seleccione el plan</option>
-                            <option value="Plan $60USD - 9GB - 30 Dias">Plan $60USD - 9GB - 30 D&iacuteas</option>
-                            <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option>
+                            <!-- <option value="Plan $60USD - 9GB - 30 Dias">Plan $60USD - 9GB - 30 D&iacuteas</option>
+                            <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 D&iacuteas</option> -->
+                            <option value="1 Dia">1 Dia</option>
+                            <option value="2 Dias">2 Dias</option>
+                            <option value="3 Dias">3 Dias</option>
+                            <option value="4 Dias">4 Dias</option>
+                            <option value="5 Dias">5 Dias</option>
+                            <option value="6 Dias">6 Dias</option>
+                            <option value="7 Dias">7 Dias</option>
+                            <option value="8 Dias">8 Dias</option>
+                            <option value="9 Dias">9 Dias</option>
+                            <option value="10 Dias">10 Dias</option>
+                            <option value="11 Dias">11 Dias</option>
+                            <option value="12 Dias">12 Dias</option>
+                            <option value="13 Dias">13 Dias</option>
+                            <option value="14 Dias">14 Dias</option>
+                            <option value="15 Dias">15 Dias</option>
+                            <option value="16 Dias">16 Dias</option>
+                            <option value="17 Dias">17 Dias</option>
+                            <option value="18 Dias">18 Dias</option>
+                            <option value="19 Dias">19 Dias</option>
+                            <option value="20 Dias">20 Dias</option>
+                            <option value="21 Dias">21 Dias</option>
+                            <option value="22 Dias">22 Dias</option>
+                            <option value="23 Dias">23 Dias</option>
+                            <option value="24 Dias">24 Dias</option>
+                            <option value="25 Dias">25 Dias</option>
+                            <option value="26 Dias">26 Dias</option>
+                            <option value="27 Dias">27 Dias</option>
+                            <option value="28 Dias">28 Dias</option>
+                            <option value="29 Dias">29 Dias</option>
+                            <option value="30 Dias">30 Dias</option>
                         </select>
                     </div> 
 

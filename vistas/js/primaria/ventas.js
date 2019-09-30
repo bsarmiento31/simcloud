@@ -54,7 +54,7 @@ var FechaFinal = $("#FechaFinal").val();
     url:"ajax/ventas.ajax.php",
     data: "idPlan="+ $('.traerDestinos').val(), 
     success : function(respuesta){
-
+ 
       console.log(respuesta);
 
         if (respuesta == 0) 

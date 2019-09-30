@@ -561,7 +561,7 @@ function RecolectarElegidos(elemento){
     var _valorCantidad = 0;
     console.warn(_seleccionados[i].value);
     
-        if(_valorSeleccionado == 'Plan $35USD - 1.5GB - 30 Dias'){
+     if(_valorSeleccionado == 'Plan $35USD - 1.5GB - 30 Dias'){
       _valorCantidad = 35;
     } else if(_valorSeleccionado == 'Plan $45USD - 2.5GB - 30 Dias'){
       _valorCantidad = 45;
@@ -628,6 +628,133 @@ function RecolectarElegidos(elemento){
     }
     else if (_valorSeleccionado == 'Plan $70USD - Ilimitado - 30 Dias') {
       _valorCantidad = 70;
+    }
+////// Esta es para los dias
+
+    else if (_valorSeleccionado == '1 Dia') {
+      _valorCantidad = 5;
+    }
+    else if (_valorSeleccionado == '2 Dias') {
+      _valorCantidad = 10;
+    }
+    else if (_valorSeleccionado == '3 Dias') {
+      _valorCantidad = 15;
+    }
+    else if (_valorSeleccionado == '4 Dias') {
+      _valorCantidad = 20;
+    }
+    else if (_valorSeleccionado == '5 Dias') {
+      _valorCantidad = 25;
+    }
+    else if (_valorSeleccionado == '6 Dias') {
+      _valorCantidad = 26;
+    }
+    else if (_valorSeleccionado == '7 Dias') {
+      _valorCantidad = 30;
+    }
+    else if (_valorSeleccionado == '8 Dias') {
+      _valorCantidad = 32;
+    }
+    else if (_valorSeleccionado == '9 Dias') {
+      _valorCantidad = 34;
+    }
+    else if (_valorSeleccionado == '10 Dias') {
+      _valorCantidad = 36;
+    }
+    else if (_valorSeleccionado == '11 Dias') {
+      _valorCantidad = 38;
+    }
+    else if (_valorSeleccionado == '12 Dias') {
+      _valorCantidad = 40;
+    }
+    else if (_valorSeleccionado == '13 Dias') {
+      _valorCantidad = 42;
+    }
+    else if (_valorSeleccionado == '14 Dias') {
+      _valorCantidad = 44;
+    }
+    else if (_valorSeleccionado == '15 Dias') {
+      _valorCantidad = 46;
+    }
+    else if (_valorSeleccionado == '16 Dias') {
+      _valorCantidad = 48;
+    }
+    else if (_valorSeleccionado == '17 Dias') {
+      _valorCantidad = 50;
+    }
+    else if (_valorSeleccionado == '18 Dias') {
+      _valorCantidad = 52;
+    }
+    else if (_valorSeleccionado == '19 Dias') {
+      _valorCantidad = 54;
+    }
+    else if (_valorSeleccionado == '20 Dias') {
+      _valorCantidad = 56;
+    }
+    else if (_valorSeleccionado == '21 Dias') {
+      _valorCantidad = 58;
+    }
+    else if (_valorSeleccionado == '22 Dias') {
+      _valorCantidad = 60;
+    }
+    else if (_valorSeleccionado == '23 Dias') {
+      _valorCantidad = 61;
+    }
+    else if (_valorSeleccionado == '24 Dias') {
+      _valorCantidad = 63;
+    }
+    else if (_valorSeleccionado == '25 Dias') {
+      _valorCantidad = 65;
+    }
+    else if (_valorSeleccionado == '26 Dias') {
+      _valorCantidad = 66;
+    }
+    else if (_valorSeleccionado == '27 Dias') {
+      _valorCantidad = 67;
+    }
+    else if (_valorSeleccionado == '28 Dias') {
+      _valorCantidad = 68;
+    }
+    else if (_valorSeleccionado == '29 Dias') {
+      _valorCantidad = 69;
+    }
+    else if (_valorSeleccionado == '30 Dias') {
+      _valorCantidad = 70;
+    }
+    //Esta es para que el valor sea 0 
+     else if (_valorSeleccionado == '') {
+      _valorCantidad = 0;
+    }
+
+     else if (_valorSeleccionado == 'Estados Unidos') {
+      _valorCantidad = 0;
+    }
+     else if (_valorSeleccionado == 'Mexico') {
+      _valorCantidad = 0;
+    }
+     else if (_valorSeleccionado == 'Republica Dominicana') {
+      _valorCantidad = 0;
+    }
+     else if (_valorSeleccionado == 'Centro y sur america') {
+      _valorCantidad = 0;
+    }
+     else if (_valorSeleccionado == 'Australia y nueva zelanda') {
+      _valorCantidad = 0;
+    }
+     else if (_valorSeleccionado == 'Union europea') {
+      _valorCantidad = 0;
+    }
+     else if (_valorSeleccionado == 'Canada') {
+      _valorCantidad = 0;
+    }
+     else if (_valorSeleccionado == 'Asia') {
+      _valorCantidad = 0;
+    }
+     else if (_valorSeleccionado == 'Colombia') {
+      _valorCantidad = 0;
+    }
+     else if (_valorSeleccionado == 'Puerto Rico') {
+      _valorCantidad = 0;
     }
   
     // else if (_valorSeleccionado == 'Plan de datos: 10GB, Velocidad Red: 4GLTE, Llamadas a estados unidos, canadá, méxico y colombia: NA,Precio: 5USD, Vigencia: 1 Día') {
