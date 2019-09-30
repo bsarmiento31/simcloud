@@ -399,7 +399,7 @@
                  <i class="fa fa-clock-o modal-icon"></i>
                  <h4 class="modal-title">Crear La Simcards</h4>
                  <small>Ingrese los datos correspondientes del las SimCards</small>
-             </div>
+             </div> 
              <div class="modal-body">
                <form method="post" class="form-horizontal"  enctype="multipart/form-data" class="formularioSimcard">
 
@@ -613,8 +613,8 @@
                         <label class="col-sm-2 control-label">Tipo de plan</label>
                         <div class="col-sm-10">
                         <select data-placeholder="Escoger el plan..." onchange="validar()" name="plan[]" id="capturarTipoPlan" class="chosen-select capturarOption MostrarPrecios" multiple="multiple" style="width:450px;" tabindex="4">
-                            <option value="Plan $45USD - 5GB - 30 Días">Plan $45USD - 5GB - 30 Días</option>
-                            <option value="Plan $40USD - 1GB - 30 Días">Plan $40USD - 1GB - 30 Días</option>
+                            <!-- <option value="Plan $45USD - 5GB - 30 Días">Plan $45USD - 5GB - 30 Días</option>
+                            <option value="Plan $40USD - 1GB - 30 Días">Plan $40USD - 1GB - 30 Días</option> -->
                         </select>
                     </div> 
 
@@ -1161,15 +1161,135 @@
                         <input type="checkbox" id="select-all24">
                         <label for="inlineCheckbox1">Seleccionar Todo</label>
                     </div>
-                    <div class="checkbox checkbox-success">
+                    <!-- <div class="checkbox checkbox-success">
                         <input type="checkbox" name="editarPlan[]" class="select-alla24" value="Plan $45USD - 5GB - 30 Días">
                         <label for="inlineCheckbox1">Plan $45USD - 5GB - 30 Días</label>
+                    </div> -->
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="1 Dia">
+                        <label for="inlineCheckbox1">1 Día</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="2 Dias">
+                        <label for="inlineCheckbox1">2 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="3 Dias">
+                        <label for="inlineCheckbox1">3 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="4 Dias">
+                        <label for="inlineCheckbox1">4 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="5 Dias">
+                        <label for="inlineCheckbox1">5 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="6 Dias">
+                        <label for="inlineCheckbox1">6 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="7 Dias">
+                        <label for="inlineCheckbox1">7 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="8 Dias">
+                        <label for="inlineCheckbox1">8 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="9 Dias">
+                        <label for="inlineCheckbox1">9 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="10 Dias">
+                        <label for="inlineCheckbox1">10 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="11 Dias">
+                        <label for="inlineCheckbox1">11 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="12 Dias">
+                        <label for="inlineCheckbox1">12 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="13 Dias">
+                        <label for="inlineCheckbox1">13 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="14 Dias">
+                        <label for="inlineCheckbox1">14 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="15 Dias">
+                        <label for="inlineCheckbox1">15 Dias</label>
                     </div>
                     </div>
                     <div class="col-sm-5">
-                    <div class="checkbox checkbox-success">
+                    <!-- <div class="checkbox checkbox-success">
                         <input type="checkbox" name="editarPlan[]" class="select-alla24" value="Plan $40USD - 1GB - 30 Días">
                         <label for="inlineCheckbox2">Plan $40USD - 1GB - 30 Días</label>
+                    </div> -->
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="16 Dias">
+                        <label for="inlineCheckbox1">16 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="17 Dias">
+                        <label for="inlineCheckbox1">17 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="18 Dias">
+                        <label for="inlineCheckbox1">18 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="19 Dias">
+                        <label for="inlineCheckbox1">19 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="20 Dias">
+                        <label for="inlineCheckbox1">20 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="21 Dias">
+                        <label for="inlineCheckbox1">21 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="22 Dias">
+                        <label for="inlineCheckbox1">22 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="23 Dias">
+                        <label for="inlineCheckbox1">23 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="24 Dias">
+                        <label for="inlineCheckbox1">24 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="25 Dias">
+                        <label for="inlineCheckbox1">25 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="26 Dias">
+                        <label for="inlineCheckbox1">26 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="27 Dias">
+                        <label for="inlineCheckbox1">27 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="28 Dias">
+                        <label for="inlineCheckbox1">28 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="29 Dias">
+                        <label for="inlineCheckbox1">29 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="editarPlan[]" class="select-alla24" value="30 Dias">
+                        <label for="inlineCheckbox1">30 Dias</label>
                     </div>
                     </div>
                    
@@ -1728,16 +1848,137 @@
                         <input type="checkbox" id="select-all5">
                         <label for="inlineCheckbox1">Seleccionar Todo</label>
                     </div>
-                    <div class="checkbox checkbox-success">
+                   <!--  <div class="checkbox checkbox-success">
                         <input type="checkbox" name="plan2[]" class="select-alla5" value="Plan $45USD - 5GB - 30 Días">
                         <label for="inlineCheckbox1">Plan $45USD - 5GB - 30 Días</label>
+                    </div> -->
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="1 Dia">
+                        <label for="inlineCheckbox1">1 Día</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="2 Dias">
+                        <label for="inlineCheckbox1">2 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="3 Dias">
+                        <label for="inlineCheckbox1">3 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="4 Dias">
+                        <label for="inlineCheckbox1">4 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="5 Dias">
+                        <label for="inlineCheckbox1">5 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="6 Dias">
+                        <label for="inlineCheckbox1">6 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="7 Dias">
+                        <label for="inlineCheckbox1">7 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="8 Dias">
+                        <label for="inlineCheckbox1">8 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="9 Dias">
+                        <label for="inlineCheckbox1">9 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="10 Dias">
+                        <label for="inlineCheckbox1">10 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="11 Dias">
+                        <label for="inlineCheckbox1">11 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="12 Dias">
+                        <label for="inlineCheckbox1">12 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="13 Dias">
+                        <label for="inlineCheckbox1">13 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="14 Dias">
+                        <label for="inlineCheckbox1">14 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="15 Dias">
+                        <label for="inlineCheckbox1">15 Dias</label>
                     </div>
                     </div>
                     <div class="col-sm-5">
-                    <div class="checkbox checkbox-success">
+                    <!-- <div class="checkbox checkbox-success">
                         <input type="checkbox" name="plan2[]" class="select-alla5" value="Plan $40USD - 1GB - 30 Días">
                         <label for="inlineCheckbox2">Plan $40USD - 1GB - 30 Días</label>
+                    </div> -->
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="16 Dias">
+                        <label for="inlineCheckbox1">16 Dias</label>
                     </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="17 Dias">
+                        <label for="inlineCheckbox1">17 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="18 Dias">
+                        <label for="inlineCheckbox1">18 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="19 Dias">
+                        <label for="inlineCheckbox1">19 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="20 Dias">
+                        <label for="inlineCheckbox1">20 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="21 Dias">
+                        <label for="inlineCheckbox1">21 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="22 Dias">
+                        <label for="inlineCheckbox1">22 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="23 Dias">
+                        <label for="inlineCheckbox1">23 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="24 Dias">
+                        <label for="inlineCheckbox1">24 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="25 Dias">
+                        <label for="inlineCheckbox1">25 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="26 Dias">
+                        <label for="inlineCheckbox1">26 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="27 Dias">
+                        <label for="inlineCheckbox1">27 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="28 Dias">
+                        <label for="inlineCheckbox1">28 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="29 Dias">
+                        <label for="inlineCheckbox1">29 Dias</label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input type="checkbox" name="plan2[]" class="select-alla5" value="30 Dias">
+                        <label for="inlineCheckbox1">30 Dias</label>
+                    </div>
+
                     </div>
                    
                    

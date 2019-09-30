@@ -4,7 +4,7 @@
            
     </div>
     <div class="col-lg-8">
-         <div class="ibox ">   
+         <div class="ibox ">    
                 <div class="ibox-title">   
                     <h5>Agregar Venta</h5>      
                 </div>
@@ -265,7 +265,7 @@
                         <label class="col-sm-3 control-label">Tipo de plan</label>
                         <div class="col-sm-9">
                         <select  name="nuevoplan2"  class="form-control m-b MostrarPrecios">
-                             <option value="">Seleccione el plan</option>
+                            <option value="">Seleccione el plan</option>
                             <option value="Plan $40USD - 1GB - 30 Dias">Plan $35USD - 1.5GB - 30 D&iacuteas</option>
                             <option value="Plan $50USD - 4GB - 30 Dias">Plan $50USD - 4GB - 30 D&iacuteas</option>
                             <option value="Plan $600USD - 6GB - 30 Dias">Plan $600USD - 6GB - 30 D&iacuteas</option>
