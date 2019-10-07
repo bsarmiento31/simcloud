@@ -1,7 +1,7 @@
 <?php
  
 class ControladorSimscard
-{
+{ 
    
 	/*============================================= 
 	REGISTRO DE SIMSCARD
@@ -21,9 +21,10 @@ class ControladorSimscard
 				$items5 = ($_POST["nuevoSimcards"]);
 				$items6 = ($_POST["nuevoAgrego"]);
 
+
 				while(true){
 
-					$item1 = current($items1);
+					$item1 = current($items1); 
 					$item3 = current($items3);
 					$item4 = $items4;
 					$item5 = current($items5);
@@ -116,6 +117,7 @@ class ControladorSimscard
 
 				$items5 = ($_POST["nuevoSimcards2"]);
 				$items6 = ($_POST["nuevoAgrego2"]);
+				$items7 = ($_POST["addcordinadorinv"]);
  
 				while(true){
 
@@ -124,14 +126,16 @@ class ControladorSimscard
 					$item4 = $items4;
 					$item5 = current($items5);
 					$item6 = current($items6);
+					$item7 = current($items7);
 
 					$usuario = (($item1 !== false) ? $item1: ", &nbsp;");
 					$destino = (($item3 !== false) ? $item3: ", &nbsp;");
 					$plan = (($item4 !== false) ? $item4: ", &nbsp;");
 					$sim = (($item5 !== false) ? $item5: ", &nbsp;");
 					$agrego = (($item6 !== false) ? $item6: ", &nbsp;");
+					$asigcoord = (($item7 !== false) ? $item7: ", &nbsp;");
 
-					$valores = '("'.$usuario.'","'.$sim.'","'.$plan.'", "'.$agrego.'" , "'.$destino.'"),';
+					$valores = '("'.$usuario.'","'.$sim.'","'.$plan.'", "'.$agrego.'" , "'.$destino.'","'.$asigcoord.'"),';
 
 					$valoresq = substr($valores, 0, -1);
 
@@ -144,8 +148,9 @@ class ControladorSimscard
 					$item4 = next($items4);
 					$item5 = next($items5);
 					$item6 = next($items6);
+					$item7 = next($items7);
 
-					if ($item1 == false && $item3 == false && $item4 == false && $item5 == false && $item6 == false) break;
+					if ($item1 == false && $item3 == false && $item4 == false && $item5 == false && $item6 == false && $item7 == false) break;
 
 				}
 

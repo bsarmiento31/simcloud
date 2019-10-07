@@ -10,7 +10,7 @@ if($_SESSION["perfil"] == "Freelance" || $_SESSION["perfil"] == "Comercial"){
 
   return;
 
-}
+} 
 
 
 
@@ -266,9 +266,69 @@ if($_SESSION["perfil"] == "Freelance" || $_SESSION["perfil"] == "Comercial"){
                             </select>
                          </div>
                      </div>
+                        <div class="form-group">
+                        <label class="col-sm-2 control-label"></label>
+                          <div class="col-sm-5">
+                            <div class="checkbox checkbox-success">
+                              <input type="checkbox" id="check55"  onchange="javascript:showCoordinadorMultiUsuario()" />
+                              <label for="inlineCheckbox1">Agregar Cordinador</label>
+                          </div>
+                      </div>
+                      <div class="col-sm-5">
+                            
+                      </div>
+                    </div>
                      <input type="hidden" placeholder="idpadre" id="capturarIdPadre" name="nuevoIdPadre" value="" class="form-control">
                      <input type="hidden" name="nuevoCoordinador" value="0" class="form-control">
                         ';
+
+                        ?>
+
+                        <div class="form-group" style="display: none;" id="content55">
+                        <label class="col-sm-2 control-label">Escoger el Coordinador</label> 
+                        <div class="col-sm-10">
+                        <select class="form-control m-b" name="addcordinadoradmin" data-placeholder ="Escoge el Coordinador">
+
+                            <?php
+                         
+                                $item = null;
+                                $valor = "Coordinador";
+                                $perfil = "perfil";
+                                $valor1 = "Coordinador";
+                                $perfil1 = "perfil";
+
+       
+                                $clientes = ControladorUsuarios::ctrMostrarUsuarios($item, $valor,$perfil,$valor1,$perfil1);
+                                echo '<option value="">Escoje el Coordinador</option>';
+                                foreach ($clientes as $key => $value) {
+                                      echo '<option value="'.$value["id"].'">'.$value["nombre"].'</option>';
+                                }
+                                      
+                             
+                                       
+                
+                                ?>
+
+                        </select>
+                    </div> 
+
+                </div>
+
+                 <script type="text/javascript">
+                  function showCoordinadorMultiUsuario() {
+                      element = document.getElementById("content55");
+                      check = document.getElementById("check55");
+                      if (check.checked) {
+                          element.style.display='block';
+                      }
+                      else {
+                          element.style.display='none';
+                        }
+                      }
+
+                </script>
+
+                        <?php
 
                       }else if ($_SESSION["perfil"] == "Agencias") {
                         echo '
@@ -282,9 +342,13 @@ if($_SESSION["perfil"] == "Freelance" || $_SESSION["perfil"] == "Comercial"){
                             </select>
                          </div>
                      </div>
+                  
+
+
                       <input type="hidden" placeholder="idpadre" name="nuevoIdPadre" class="form-control" value="'.$_SESSION["id"].'" >
                       <input type="hidden" name="nuevoCoordinador" value="1" class="form-control">
                         ';
+
                       }else if($_SESSION["perfil"] == "Coordinador"){
                           
                         echo '

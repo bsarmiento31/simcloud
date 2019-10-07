@@ -2624,7 +2624,7 @@
                 </div>
                 
                 <?php
-                  if ($_SESSION["perfil"] == "Administrador") {
+                  if ($_SESSION["perfil"] == "Administrador") { 
                     echo 
                 '<div class="form-group">
                 <label class="col-sm-2 control-label"></label>
@@ -2645,7 +2645,7 @@
                  <div class="form-group" style="display: none;" id="content35">
                         <label class="col-sm-2 control-label">Escoger el Coordinador</label> 
                         <div class="col-sm-10">
-                        <select class="form-control m-b" data-placeholder ="Escoge el Coordinador" id="capturarUsuarioCordinador35">
+                        <select class="form-control m-b" name="addcordinadorinv" data-placeholder ="Escoge el Coordinador" id="capturarUsuarioCordinador35">
 
                             <?php
                          

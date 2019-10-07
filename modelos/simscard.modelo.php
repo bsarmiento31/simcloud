@@ -11,10 +11,10 @@ class ModeloSimscards{
 	CREAR SIMCARD
 	=============================================*/  
 
-	static public function mdlIngresarSimscards($tabla, $valoresq){ 
+	static public function mdlIngresarSimscards($tabla, $valoresq){  
 
 
-		$stmt = Conexion::conectar()->prepare("INSERT INTO $tabla(usuario,simcard, tipoplan,agrego,destino) VALUES $valoresq");
+		$stmt = Conexion::conectar()->prepare("INSERT INTO $tabla(usuario,simcard, tipoplan,agrego,destino,addcoodininve) VALUES $valoresq");
 
 		//var_dump($stmt);
 //(:usuario, :simcard, :tipoplan, :operador,:agrego,:destino)

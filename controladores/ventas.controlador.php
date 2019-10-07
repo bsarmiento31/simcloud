@@ -256,7 +256,7 @@ class ControladorVentas
 		$respuesta = ModeloVentas::mdlContarSimcards($tabla,$perfil,$valor);
 
 		return $respuesta; 
-	}
+	} 
  
  
 

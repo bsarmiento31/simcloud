@@ -104,7 +104,8 @@ class ControladorUsuarios
 					           		"nit" => $_POST["nuevoNit"],
 					           		"comercial" => $_POST["nuevoComercial"],
 					           		"idpadre" => $_POST["nuevoIdPadre"],
-					           		"coordinador" => $_POST["nuevoCoordinador"]);
+					           		"coordinador" => $_POST["nuevoCoordinador"],
+					           		"idcoordinadordeadmin" => $_POST["addcordinadoradmin"]);
 
 				$respuesta = ModeloUsuarios::mdlIngresarUsuario($tabla, $datos);
 

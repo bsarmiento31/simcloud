@@ -5,7 +5,7 @@
                     <h5>Acciones</h5> 
                     <div class="ibox-tools">  
                         <a class="collapse-link"> 
-                            <i class="fa fa-chevron-up"></i>    
+                            <i class="fa fa-chevron-up"></i>     
                         </a> 
                     </div>  
                 </div>    

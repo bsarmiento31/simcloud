@@ -282,7 +282,7 @@ class ModeloVentas{
 			$fechaActual = new DateTime();
 			$fechaActual ->add(new DateInterval("P1D"));
 			$fechaActualMasUno = $fechaActual->format("Y-m-d");
-
+ 
 			$fechaFinal2 = new DateTime($fechaFinal);
 			$fechaFinal2 ->add(new DateInterval("P1D"));
 			$fechaFinalMasUno = $fechaFinal2->format("Y-m-d");
@@ -327,7 +327,7 @@ class ModeloVentas{
 		}
 		else if($fechaInicial == $fechaFinal){
 
-			$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE $perfil1 = :perfil1 AND fechallegada like '%$fechaFinal%'");
+			$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE $perfil1 = :perfil1 AND fechaventa like '%$fechaFinal%'");
 
 			$stmt -> bindParam(":perfil1", $valor1, PDO::PARAM_STR);
 
@@ -347,7 +347,7 @@ class ModeloVentas{
 
 			if($fechaFinalMasUno == $fechaActualMasUno){
 
-				$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE $perfil1 = :perfil1 AND fechallegada BETWEEN '$fechaInicial' AND '$fechaFinalMasUno'");
+				$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE $perfil1 = :perfil1 AND fechaventa BETWEEN '$fechaInicial' AND '$fechaFinalMasUno'");
 
 					$stmt -> bindParam(":perfil1", $valor1, PDO::PARAM_STR);
  		

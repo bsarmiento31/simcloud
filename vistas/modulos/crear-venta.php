@@ -1160,7 +1160,7 @@
                   document.getElementById('campo_otro2').style.display = 'block';
                 } else {      
                 document.getElementById('campo_otro2').style.display = 'none';
-                }
+                } 
 
                 if (document.getElementById('destinosCargados').value === "Centro y sur america") {
                   document.getElementById('campo_otro3').style.display = 'block';
@@ -1271,11 +1271,11 @@
                  <div class="form-group" id="campo_otro3" style="display: none">
                         <label class="col-sm-3 control-label">Tipo de plan</label>
                         <div class="col-sm-9">
-                        <select  name="nuevoplan5" class="form-control m-b MostrarPrecios">
+                        <!-- <select  name="nuevoplan5" class="form-control m-b MostrarPrecios">
                              <option value="">Escoger el plan</option>
                             <option value="Plan $45USD - 5GB - 30 Dias">Plan $45USD - 5GB - 30 Dias</option>
                             <option value="Plan $40USD - 1GB - 30 Dias">Plan $40USD - 1GB - 30 Dias</option>
-                        </select>
+                        </select> -->
                     </div> 
 
                 </div>
