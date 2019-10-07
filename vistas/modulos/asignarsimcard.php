@@ -1,10 +1,10 @@
 <?php
 error_reporting(0);
 if(isset($_POST['boton2'])) { 
-
+ 
 	$eliminarRegistrosSeleccionados = new ControladorSimscard();
   	$eliminarRegistrosSeleccionados -> ctrEliminarRegistrosSeleccionados();
-}else{
+}else{ 
 	
  	
 ?> 

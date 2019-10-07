@@ -122,7 +122,7 @@ class AjaxVentas{
 		/*=============================================
 	REVISAR SI LA SIMCARD QUE VA A COLOCAR ESTA VENDIDA
 	=============================================*/	
- 
+  
 	public $validarSimcardVendida; 
 
 	public function ajaxSimcardsVendida(){

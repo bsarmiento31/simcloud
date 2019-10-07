@@ -1,7 +1,7 @@
 <?php
 
   if ($_SESSION["perfil"] == "Administrador") {
-    echo    
+    echo     
     '
  
     <div class="col-lg-12 animated fadeInRight" style="margin-top: 15px;"> 
@@ -14,17 +14,17 @@
                             <i class="fa fa-chevron-up"></i>    
                         </a>
                     </div>
-                </div>
+                </div> 
                 <div class="ibox-content">  
 
                     <p>
-                        <button type="submit" name="boton2" class="btn btn-danger pull-right">Eliminar</button> 
+                        
                         <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#CrearSimCards"><i class="fa fa-check"></i>&nbsp;Crear SimsCards</button>-->
                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#CrearSimCardsMultiples"><i class="fa fa-window-restore"></i>&nbsp;Crear SimsCards</button>
                         <!--<a href="vistas/modulos/descargar-reporte.php?reporteSimcard=reporteSimcard"><button type="button" class="btn btn-success pull-right"><i class="fa fa-file-excel-o"></i>&nbsp;Descargar Excel</button></a>-->
                     </p> 
                 </div>
-            </div>
+          </div>
     </div> 
 </div>
 
@@ -97,10 +97,12 @@
                 <form action="asignarsimcard" method="post">
                <?php
                   if ($_SESSION["perfil"] == "Administrador") {
-                    echo '<button type="submit" name="boton1" class="btn btn-success">Asignar</button>';
+                    echo '<button type="submit" name="boton1" class="btn btn-success">Asignar</button>'; 
+                    echo '<button type="submit" name="boton2" class="btn btn-danger pull-right">Eliminar</button>'; 
                   }
                 ?>
             <table class="table table-bordered table-striped dt-responsive TablasSimcards">
+
             <thead>
             <tr>
                 <?php
@@ -138,7 +140,7 @@
                     }else if($_SESSION["perfil"] == "Agencias" ||  $_SESSION["perfil"] == "Coordinador"){
 
                     $item = null; 
-                    $valor = $_SESSION["id"];;
+                    $valor = $_SESSION["id"];
                     $select = "usuario";
                     $valor1 = $_SESSION["usuario"];
                     $select1 = "agrego";
@@ -1808,7 +1810,7 @@
                         </div>
                         <div class="checkbox checkbox-success">
                             <input type="checkbox" name="nuevoDestino2[]" id="check1"  value="Mexico" onchange="javascript:showMexico()" />
-                                <label for="inlineCheckbox1">Mexico</label>
+                              <label for="inlineCheckbox1">Mexico</label>
                         </div>
                         <div class="checkbox checkbox-success">
                             <input type="checkbox" name="nuevoDestino2[]" id="check2" value="Republica Dominicana" onchange="javascript:showRepublicaDominicana()" />
@@ -2641,7 +2643,7 @@
                <input type="hidden" placeholder="usuario" name="nuevoAgrego2[]" id="nuevoAgrego2" value="" class="form-control capturarCorrdinador35" required>
 
                  <div class="form-group" style="display: none;" id="content35">
-                        <label class="col-sm-2 control-label">Escoger el Coordinador</label>
+                        <label class="col-sm-2 control-label">Escoger el Coordinador</label> 
                         <div class="col-sm-10">
                         <select class="form-control m-b" data-placeholder ="Escoge el Coordinador" id="capturarUsuarioCordinador35">
 

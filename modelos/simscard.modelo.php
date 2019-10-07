@@ -9,7 +9,7 @@ class ModeloSimscards{
  
 	/*=============================================
 	CREAR SIMCARD
-	=============================================*/ 
+	=============================================*/  
 
 	static public function mdlIngresarSimscards($tabla, $valoresq){ 
 

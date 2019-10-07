@@ -726,6 +726,7 @@ function RecolectarElegidos(elemento){
       _valorCantidad = 0;
     }
 
+ 
      else if (_valorSeleccionado == 'Estados Unidos') {
       _valorCantidad = 0;
     }

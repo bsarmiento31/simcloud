@@ -116,7 +116,7 @@ class ControladorSimscard
 
 				$items5 = ($_POST["nuevoSimcards2"]);
 				$items6 = ($_POST["nuevoAgrego2"]);
-
+ 
 				while(true){
 
 					$item1 = current($items1);
@@ -196,22 +196,36 @@ class ControladorSimscard
 			}
 
 
-			if($respuesta == "ok"){
+			if($respuesta == "ok"){ 
 
 				echo'<script>
 
-				swal({
-					  type: "success",
-					  title: "Las simcards ha sido borrado correctamente",
-					  showConfirmButton: true,
-					  confirmButtonText: "Cerrar"
-					  }).then(function(result){
-								if (result.value) {
+							swal({
+							    title: "¿Está seguro de borrar la simcard?",
+							    text: "¡Si no lo está puede cancelar la accíón!",
+							    type: "warning",
+							    showCancelButton: true,
+							    confirmButtonColor: "#3085d6",
+							      cancelButtonColor: "#d33",
+							      cancelButtonText: "Cancelar",
+							      confirmButtonText: "Si, borrar simcard!"
+							  }).then(function(result){
 
-								window.location = "simscard";
+							    if(result.value){
 
-								}
-							})
+							   	swal({
+										  type: "success",
+										  title: "Las simcards ha sido borrado correctamente",
+										  showConfirmButton: true,
+										  confirmButtonText: "Cerrar"
+
+										  });
+
+										  window.location = "simscard";
+
+							    }
+
+  						})
 
 				</script>';
 
@@ -302,7 +316,7 @@ class ControladorSimscard
 	static public function ctrMostrarSimscardHabilitada($item, $valor,$select,$valor1,$perfil1){ 
 
 		$tabla = "simcards"; 
-
+ 
 		$respuesta = ModeloSimscards::mdlMostrarSinscardHabilitada($tabla, $item, $valor,$select,$valor1,$perfil1);
 
 		return $respuesta;

@@ -464,7 +464,7 @@
                 <div class="form-group" id="campo_otro1" style="display: none">
                         <label class="col-sm-3 control-label">Tipo de plan</label>
                         <div class="col-sm-9">
-                        <select  name="nuevoplan10"  class="form-control m-b MostrarPrecios" id="planeCargadosUsa" onchange="cambiarDiasUsa()">
+                        <select  name="nuevoplan10"  class="form-control m-b MostrarPrecios vaciarValores" id="planeCargadosUsa" onchange="cambiarDiasUsa()">
                             <option value="">Seleccione el plan</option>
                             <option value="Plan $40USD - 1GB - 30 Dias">Plan $40USD - 1GB - 30 D&iacuteas</option>
                             <option value="Plan $50USD - 4GB - 30 Dias">Plan $50USD - 4GB - 30 D&iacuteas</option>
